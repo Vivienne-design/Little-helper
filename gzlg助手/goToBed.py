@@ -114,7 +114,7 @@ def doWork(session):
         'data': '{"SFFWN":"1","DDDM":"b2c1441606da4efbb9fe5b2b89226396","DDMC":"广州理工学院(博罗校区)","QDJD":114.08675193786623,"QDWD":23.186742693715477,"RWBH":"16FC8C91BCDDEC67E0630717000A97E1","QDPL":"2"}',
     }
     # logging.log(logging.INFO, '开始签到任务')
-    if int(os.getenv('USERNAME')[:4]) >= 2023:
+    if int(os.getenv('USERNAME')[:4]) >= 2024:
         print('定位hz')
         response = session.post(
             'https://xsfw.gzist.edu.cn/xsfw/sys/swmzncqapp/modules/studentCheckController/uniFormSignUp.do',
